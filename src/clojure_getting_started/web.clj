@@ -8,8 +8,8 @@
 
 (defn splash []
   {:status 200
-   :headers {"Content-Type" "text/plain"}
-   :body "Hello from Heroku"})
+   :headers {"Content-Type" "application/json"}
+   :body {'test': 123}})
 
 (defroutes app
   (GET "/" []
