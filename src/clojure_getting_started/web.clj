@@ -9,7 +9,7 @@
 (defn splash []
   {:status 200
    :headers {"Content-Type" "application/json"}
-   :body "{'test': 123}"})
+   :body "{\"test\": 123}"})
 
 (defroutes app
   (GET "/" []
