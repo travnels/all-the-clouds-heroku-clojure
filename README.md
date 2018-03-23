@@ -1,5 +1,5 @@
-
-# clojure-getting-started
+# all-the-clouds-heroku-clojure
+Deployed to https://all-the-clouds-heroku-clojure.herokuapp.com/
 
 A barebones Clojure app, which can easily be deployed to Heroku.  
 
